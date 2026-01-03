@@ -55,17 +55,17 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {siteContent.whyChoose.points.map((item) => (
-              <div key={item.title} className="bg-brand-black rounded-lg p-6 border-4 border-brand-black shadow-md hover:shadow-lg transition transform hover:scale-105">
+              <div key={item.title} className="bg-brand-orange rounded-lg p-6 border-4 border-brand-black shadow-md hover:shadow-lg transition transform hover:scale-105">
                 <div className="text-5xl mb-3">{item.icon}</div>
-                <h3 className="font-bold text-brand-orange mb-2 text-lg">{item.title}</h3>
-                <p className="text-sm text-brand-orange font-semibold">{item.description}</p>
+                <h3 className="font-bold text-brand-black mb-2 text-lg">{item.title}</h3>
+                <p className="text-sm text-brand-black font-semibold">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Stats Section - ORANGE with BLACK cards */}
+      {/* Stats Section - ORANGE */}
       <section className="py-16 px-4 bg-brand-orange">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -75,11 +75,11 @@ export default function Home() {
               { number: siteContent.stats.yearsExperience, label: siteContent.stats.yearsExperienceLabel },
               { number: siteContent.stats.support, label: siteContent.stats.supportLabel },
             ].map((stat) => (
-              <div key={stat.label} className="text-center bg-brand-black rounded-lg p-8 transform hover:scale-105 transition">
-                <div className="text-5xl font-bold text-brand-orange mb-2">
+              <div key={stat.label} className="text-center bg-brand-orange rounded-lg p-8 border-4 border-brand-black transform hover:scale-105 transition">
+                <div className="text-5xl font-bold text-brand-black mb-2">
                   {stat.number}
                 </div>
-                <div className="text-brand-orange font-bold text-lg">{stat.label}</div>
+                <div className="text-brand-black font-bold text-lg">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -101,17 +101,17 @@ export default function Home() {
               return (
                 <div
                   key={course.name}
-                  className="bg-brand-black rounded-xl shadow-lg p-8 border-4 border-brand-black hover:shadow-2xl transition transform hover:scale-105"
+                  className="bg-brand-orange rounded-xl shadow-lg p-8 border-4 border-brand-black hover:shadow-2xl transition transform hover:scale-105"
                 >
-                  <IconComponent className="w-16 h-16 mb-4 text-brand-orange" strokeWidth={1.5} />
-                  <h3 className="text-2xl font-bold mb-2 text-brand-orange">
+                  <IconComponent className="w-16 h-16 mb-4 text-brand-black" strokeWidth={1.5} />
+                  <h3 className="text-2xl font-bold mb-2 text-brand-black">
                     {course.name}
                   </h3>
-                  <p className="text-sm text-brand-orange font-bold mb-3">{course.target}</p>
-                  <p className="text-sm text-brand-orange font-semibold mb-4">{course.stats}</p>
-                  <p className="text-gray-300 font-semibold mb-4">{course.description}</p>
-                  <p className="text-xs text-brand-orange font-bold mb-6">{course.priceRange}</p>
-                  <button className="w-full px-6 py-3 bg-brand-orange text-brand-black font-bold rounded-lg hover:opacity-90 transition">
+                  <p className="text-sm text-brand-black font-bold mb-3">{course.target}</p>
+                  <p className="text-sm text-brand-black font-semibold mb-4">{course.stats}</p>
+                  <p className="text-brand-black font-semibold mb-4">{course.description}</p>
+                  <p className="text-xs text-brand-black font-bold mb-6">{course.priceRange}</p>
+                  <button className="w-full px-6 py-3 bg-brand-black text-brand-orange font-bold rounded-lg hover:opacity-90 transition">
                     View Details
                   </button>
                 </div>
@@ -140,31 +140,31 @@ export default function Home() {
               return (
                 <div
                   key={resource.name}
-                  className="bg-brand-black rounded-lg shadow-md p-6 text-center transform hover:scale-105 transition border-2 border-brand-black"
+                  className="bg-brand-orange rounded-lg shadow-md p-6 text-center transform hover:scale-105 transition border-2 border-brand-black"
                 >
-                  <IconComponent className="w-12 h-12 mb-3 mx-auto text-brand-orange" strokeWidth={1.5} />
-                  <h3 className="text-lg font-bold text-brand-orange mb-2">
+                  <IconComponent className="w-12 h-12 mb-3 mx-auto text-brand-black" strokeWidth={1.5} />
+                  <h3 className="text-lg font-bold text-brand-black mb-2">
                     {resource.name}
                   </h3>
-                  <p className="text-sm text-brand-orange font-semibold">{resource.count}</p>
+                  <p className="text-sm text-brand-black font-semibold">{resource.count}</p>
                 </div>
               );
             })}
           </div>
 
-          {/* Video Section Highlight - BLACK with ORANGE text */}
-          <div className="bg-brand-black rounded-xl p-8 md:p-12 text-center border-4 border-brand-black">
-            <h3 className="text-3xl font-bold text-brand-orange mb-4">50+ Video Lessons</h3>
-            <p className="text-lg text-brand-orange mb-6 max-w-3xl mx-auto font-semibold">
+          {/* Video Section Highlight - ORANGE */}
+          <div className="bg-brand-orange rounded-xl p-8 md:p-12 text-center border-4 border-brand-black">
+            <h3 className="text-3xl font-bold text-brand-black mb-4">50+ Video Lessons</h3>
+            <p className="text-lg text-brand-black mb-6 max-w-3xl mx-auto font-semibold">
               Watch expert explanations for every grammar rule, conjugation, and conversation scenario. Each video includes practice exercises and comprehension checks.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="px-6 py-3 bg-brand-orange text-brand-black font-bold rounded-lg hover:opacity-90 transition">
+              <button className="px-6 py-3 bg-brand-black text-brand-orange font-bold rounded-lg hover:opacity-90 transition">
                 Browse Video Library
               </button>
               <a
                 href="/resources"
-                className="px-6 py-3 border-2 border-brand-orange text-brand-orange font-bold rounded-lg hover:bg-brand-orange hover:text-brand-black transition"
+                className="px-6 py-3 border-2 border-brand-black text-brand-black font-bold rounded-lg hover:bg-brand-black hover:text-brand-orange transition"
               >
                 All Resources
               </a>
