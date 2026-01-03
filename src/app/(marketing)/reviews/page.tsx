@@ -99,7 +99,7 @@ export default function Reviews() {
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: testimonial.rating }).map((_, i) => (
                     <span key={i} className="text-brand-orange text-lg">
-                      ƒ-?
+                      ⭐
                     </span>
                   ))}
                 </div>
@@ -127,17 +127,17 @@ export default function Reviews() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                icon: "dY\"^",
+                icon: "📈",
                 title: "Results Over Time",
                 stat: "Average improvement: 1+ letter grade in 12 weeks",
               },
               {
-                icon: "dYZ_",
+                icon: "🎓",
                 title: "Expert Teaching",
                 stat: "10+ years experience. Top regional performer.",
               },
               {
-                icon: "dY'ª",
+                icon: "💬",
                 title: "Real Communication",
                 stat: "Direct access to Candice. Quick responses. Progress updates.",
               },
