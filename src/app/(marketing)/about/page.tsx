@@ -26,7 +26,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="w-64 h-64 bg-brand-orange rounded-xl mx-auto flex items-center justify-center">
-                  <span className="text-6xl">dY`cƒ??dY?®</span>
+                  <span className="text-6xl">👩‍🏫</span>
                 </div>
               </div>
               <div>
@@ -35,7 +35,7 @@ export default function About() {
                 </h2>
                 <p className="text-brand-black mb-4 leading-relaxed">
                   For years, I watched smart students freeze on exam day. Not because they
-                  didn't know Spanish ƒ?" but because they didn't understand *how exams work*.
+                  didn't know Spanish, but because they didn't understand *how exams work*.
                 </p>
                 <p className="text-brand-black mb-4 leading-relaxed">
                   I started tutoring privately to crack the code. I mapped out CXC patterns.
