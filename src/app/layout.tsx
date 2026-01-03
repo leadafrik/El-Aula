@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   description:
     "Interactive Spanish tutoring for CSEC & CAPE students. Free resources, private tutoring, revision sessions, and simulator exams.",
   metadataBase: new URL("https://el-aula.com"),
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "El Aula Tutoring Services",
     description:

@@ -1,6 +1,5 @@
 import { defineConfig } from "sanity";
 import { structureTool } from "sanity/structure";
-import { visionTool } from "@sanity/vision";
 
 const projectId = "vlyb715a";
 const dataset = "production";
@@ -10,7 +9,7 @@ export default defineConfig({
   title: "El Aula",
   projectId,
   dataset,
-  plugins: [structureTool(), visionTool()],
+  plugins: [structureTool()],
   schema: {
     types: [
       {
