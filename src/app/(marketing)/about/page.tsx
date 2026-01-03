@@ -96,8 +96,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Philosophy - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Philosophy - BLACK */}
+      <section className="py-16 px-4 bg-brand-black">
         <div className="max-w-6xl mx-auto text-center">
           <div className="rounded-xl p-12 border-4 border-brand-black">
             <h2 className="text-3xl font-bold mb-6 text-brand-black">Teaching Philosophy</h2>
@@ -120,8 +120,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Why Trust - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Why Trust - BLACK */}
+      <section className="py-16 px-4 bg-brand-black text-brand-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center text-brand-black">
             What Sets El Aula Apart

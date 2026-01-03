@@ -153,7 +153,7 @@ export default function Reviews() {
       </section>
 
       {/* Social Proof - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      <section className="py-16 px-4 bg-brand-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center text-brand-black">
             Why Families Trust El Aula

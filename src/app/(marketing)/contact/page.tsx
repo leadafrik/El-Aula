@@ -18,8 +18,8 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Contact Methods - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Contact Methods - BLACK */}
+      <section className="py-16 px-4 bg-brand-black">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-brand-white rounded-xl p-8 text-center shadow-lg border-4 border-brand-black hover:shadow-xl transition">
@@ -112,8 +112,8 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* FAQ - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* FAQ - BLACK */}
+      <section className="py-16 px-4 bg-brand-black text-brand-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center text-brand-black">
             Common Concerns

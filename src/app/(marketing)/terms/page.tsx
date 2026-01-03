@@ -17,7 +17,7 @@ export default function Terms() {
       </section>
 
       {/* Content - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      <section className="py-16 px-4 bg-brand-black">
         <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
             <section>
