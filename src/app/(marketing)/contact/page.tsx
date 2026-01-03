@@ -23,7 +23,7 @@ export default function Contact() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-brand-white rounded-xl p-8 text-center shadow-lg border-4 border-brand-black hover:shadow-xl transition">
-              <div className="text-5xl mb-4">dY'ª</div>
+              <div className="text-5xl mb-4">💬</div>
               <h3 className="text-2xl font-bold mb-4 text-brand-black">Quick Response</h3>
               <p className="text-gray-600 mb-6">
                 Message on WhatsApp. Candice replies within 1 hour during business hours.
@@ -36,7 +36,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-brand-white rounded-xl p-8 text-center shadow-lg border-4 border-brand-black hover:shadow-xl transition">
-              <div className="text-5xl mb-4">dY"</div>
+              <div className="text-5xl mb-4">📧</div>
               <h3 className="text-2xl font-bold mb-4 text-brand-black">Detailed Questions</h3>
               <p className="text-gray-600 mb-6">
                 Prefer email? Write your full question. Reply within 24 hours.
@@ -50,7 +50,7 @@ export default function Contact() {
             </div>
 
             <div className="bg-brand-white rounded-xl p-8 text-center shadow-lg border-4 border-brand-black hover:shadow-xl transition">
-              <div className="text-5xl mb-4">ƒ~Z‹,?</div>
+              <div className="text-5xl mb-4">📞</div>
               <h3 className="text-2xl font-bold mb-4 text-brand-black">Phone Consultation</h3>
               <p className="text-gray-600 mb-6">
                 Schedule a quick call. Free 15-minute consultation. See if we're a fit.
