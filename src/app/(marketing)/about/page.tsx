@@ -19,10 +19,10 @@ export default function About() {
         </div>
       </section>
 
-      {/* Story - ORANGE */}
-      <section className="py-16 px-4 bg-brand-orange">
+      {/* Story - BLACK */}
+      <section className="py-16 px-4 bg-brand-black text-brand-white">
         <div className="max-w-6xl mx-auto">
-          <div className="bg-brand-orange rounded-xl p-12 border-4 border-brand-black">
+          <div className="bg-brand-white rounded-xl p-12 border-4 border-brand-orange">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <div className="w-64 h-64 bg-brand-orange rounded-xl mx-auto flex items-center justify-center">
@@ -96,8 +96,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* Philosophy - ORANGE */}
-      <section className="py-16 px-4 bg-brand-orange text-brand-black">
+      {/* Philosophy - WHITE */}
+      <section className="py-16 px-4 bg-brand-white">
         <div className="max-w-6xl mx-auto text-center">
           <div className="rounded-xl p-12 border-4 border-brand-black">
             <h2 className="text-3xl font-bold mb-6 text-brand-black">Teaching Philosophy</h2>

@@ -19,8 +19,8 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Course Cards - ORANGE */}
-      <section className="py-16 px-4 bg-brand-orange">
+      {/* Course Cards - BLACK */}
+      <section className="py-16 px-4 bg-brand-black">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
@@ -156,8 +156,8 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* FAQ - ORANGE */}
-      <section className="py-16 px-4 bg-brand-orange text-brand-black">
+      {/* FAQ - WHITE */}
+      <section className="py-16 px-4 bg-brand-white text-brand-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center text-brand-black">
             Questions? We've Got Answers.
