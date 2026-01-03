@@ -55,7 +55,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="font-serif bg-brand-orange-dark">
+      <body className="font-serif bg-brand-orange">
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
