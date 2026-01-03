@@ -9,7 +9,7 @@ export const siteContent = {
 
   // Hero Section
   hero: {
-    mainTitle: "Spanish That Actually Works",
+    mainTitle: "El Aula Tutoring Services",
     subtitle: "CSEC & CAPE exam mastery for students who want real results",
     tagline: "Taught by Candice — Top Regional Performer",
   },
