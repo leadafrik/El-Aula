@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700&family=Cardo:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --font-display: "League Spartan", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #0b0b0b;
+  font-family: var(--font-serif);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+}
