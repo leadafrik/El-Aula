@@ -32,11 +32,11 @@ export default function SubscribeForm() {
         name="email"
         placeholder="your@email.com"
         required
-        className="flex-1 px-4 py-3 rounded-lg border border-brand-orange focus:outline-none focus:ring-2 focus:ring-brand-orange"
+        className="flex-1 px-4 py-3 rounded-lg border border-brand-black bg-brand-black text-brand-white placeholder:text-brand-gray focus:outline-none focus:ring-2 focus:ring-brand-black"
       />
       <button
         type="submit"
-        className="px-6 py-3 bg-brand-orange text-brand-black font-semibold rounded-lg hover:opacity-90 transition"
+        className="px-6 py-3 bg-brand-black text-brand-orange font-semibold rounded-lg hover:opacity-90 transition"
       >
         Subscribe
       </button>

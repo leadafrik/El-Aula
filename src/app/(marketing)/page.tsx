@@ -65,8 +65,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section - BLACK with ORANGE cards */}
-      <section className="py-16 px-4 bg-brand-black">
+      {/* Stats Section - ORANGE with BLACK cards */}
+      <section className="py-16 px-4 bg-brand-orange">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
@@ -75,11 +75,11 @@ export default function Home() {
               { number: siteContent.stats.yearsExperience, label: siteContent.stats.yearsExperienceLabel },
               { number: siteContent.stats.support, label: siteContent.stats.supportLabel },
             ].map((stat) => (
-              <div key={stat.label} className="text-center bg-brand-orange rounded-lg p-8 transform hover:scale-105 transition">
-                <div className="text-5xl font-bold text-brand-black mb-2">
+              <div key={stat.label} className="text-center bg-brand-black rounded-lg p-8 transform hover:scale-105 transition">
+                <div className="text-5xl font-bold text-brand-orange mb-2">
                   {stat.number}
                 </div>
-                <div className="text-brand-black font-bold text-lg">{stat.label}</div>
+                <div className="text-brand-orange font-bold text-lg">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -173,22 +173,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section - BLACK */}
-      <section className="bg-brand-black text-brand-white py-16 px-4">
+      {/* CTA Section - ORANGE */}
+      <section className="bg-brand-orange text-brand-black py-16 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-6 text-brand-orange">
+          <h2 className="text-5xl font-bold mb-6 text-brand-black">
             Ready to Change Your Spanish Grade?
           </h2>
-          <p className="text-xl mb-8 text-brand-white font-semibold">
+          <p className="text-xl mb-8 text-brand-black font-semibold">
             500+ students have. Average improvement: full letter grade within 12 weeks. 
             <br />
-            <strong className="text-brand-orange text-2xl">Your first consultation is free.</strong>
+            <strong className="text-brand-black text-2xl">Your first consultation is free.</strong>
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="px-8 py-4 bg-brand-orange text-brand-black font-bold rounded-lg hover:opacity-90 transition text-lg">
+            <button className="px-8 py-4 bg-brand-black text-brand-orange font-bold rounded-lg hover:opacity-90 transition text-lg">
               Start Free Consultation
             </button>
-            <button className="px-8 py-4 border-2 border-brand-orange text-brand-orange font-bold rounded-lg hover:bg-brand-orange hover:text-brand-black transition text-lg">
+            <button className="px-8 py-4 border-2 border-brand-black text-brand-black font-bold rounded-lg hover:bg-brand-black hover:text-brand-orange transition text-lg">
               Get Free Exam Tips
             </button>
           </div>

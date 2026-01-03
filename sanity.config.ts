@@ -4,11 +4,12 @@ import { structureTool } from "sanity/structure";
 const projectId = "vlyb715a";
 const dataset = "production";
 
-export default defineConfig({
+export const config = defineConfig({
   name: "default",
-  title: "El Aula",
+  title: "El Aula Studio",
   projectId,
   dataset,
+  basePath: "/studio",
   plugins: [structureTool()],
   schema: {
     types: [
@@ -306,3 +307,5 @@ export default defineConfig({
     ],
   },
 });
+
+export default config;
