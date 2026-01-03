@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-brand-orange">
+    <div className="bg-brand-black">
       <AdminDashboard />
       {/* Hero Section - BRIGHT ORANGE */}
       <section className="bg-brand-orange text-brand-black py-24 px-4 relative overflow-hidden">

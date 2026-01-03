@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 
 export default function Contact() {
   return (
-    <div className="bg-brand-orange">
+    <div className="bg-brand-black">
       {/* Hero - ORANGE */}
       <section className="py-16 px-4 bg-brand-orange text-brand-black">
         <div className="max-w-6xl mx-auto text-center">
