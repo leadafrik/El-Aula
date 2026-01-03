@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function Terms() {
   return (
-    <div className="bg-brand-white">
+    <div className="bg-brand-orange">
       {/* Hero - ORANGE */}
       <section className="py-16 px-4 bg-brand-orange text-brand-black">
         <div className="max-w-4xl mx-auto text-center">

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Courses() {
   return (
-    <div className="bg-brand-white">
+    <div className="bg-brand-orange">
       {/* Hero - ORANGE */}
       <section className="py-16 px-4 bg-brand-orange text-brand-black">
         <div className="max-w-6xl mx-auto text-center">
@@ -19,8 +19,8 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Course Cards - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Course Cards - ORANGE */}
+      <section className="py-16 px-4 bg-brand-orange">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[

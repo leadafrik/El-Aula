@@ -52,7 +52,7 @@ export default function Reviews() {
   ];
 
   return (
-    <div className="bg-brand-white">
+    <div className="bg-brand-orange">
       {/* Hero - ORANGE */}
       <section className="py-16 px-4 bg-brand-orange text-brand-black">
         <div className="max-w-6xl mx-auto text-center">
@@ -65,8 +65,8 @@ export default function Reviews() {
         </div>
       </section>
 
-      {/* Trust Stats - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Trust Stats - ORANGE */}
+      <section className="py-16 px-4 bg-brand-orange">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
