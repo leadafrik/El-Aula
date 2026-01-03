@@ -1,0 +1,303 @@
+[
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "mainTitle",
+        "type": "string"
+      },
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "subtitle",
+        "type": "text"
+      },
+      {
+        "name": "tagline",
+        "type": "string"
+      }
+    ],
+    "name": "hero",
+    "type": "document",
+    "title": "Hero Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "studentsImpacted",
+        "type": "string",
+        "title": "Students Impacted Number"
+      },
+      {
+        "name": "studentsImpactedLabel",
+        "type": "string"
+      },
+      {
+        "name": "passRate",
+        "type": "string",
+        "title": "Pass Rate Number"
+      },
+      {
+        "name": "passRateLabel",
+        "type": "string"
+      },
+      {
+        "name": "yearsExperience",
+        "type": "string",
+        "title": "Years Experience Number"
+      },
+      {
+        "name": "yearsExperienceLabel",
+        "type": "string"
+      },
+      {
+        "name": "support",
+        "type": "string",
+        "title": "Support Number"
+      },
+      {
+        "name": "supportLabel",
+        "type": "string"
+      }
+    ],
+    "name": "stats",
+    "type": "document",
+    "title": "Statistics Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Section Title"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "title",
+                "type": "string",
+                "title": "Benefit Title"
+              },
+              {
+                "name": "description",
+                "type": "text",
+                "title": "Benefit Description"
+              },
+              {
+                "description": "e.g., CheckCircle, Star, Award, Zap, Heart",
+                "name": "icon",
+                "type": "string",
+                "title": "Icon Name (lucide-react)"
+              }
+            ],
+            "type": "object",
+            "title": "Benefit Point"
+          }
+        ],
+        "name": "points",
+        "type": "array",
+        "title": "Benefit Points"
+      }
+    ],
+    "name": "whyChoose",
+    "type": "document",
+    "title": "Why Choose Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Section Title"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "name",
+                "type": "string",
+                "title": "Course Name"
+              },
+              {
+                "name": "description",
+                "type": "text"
+              },
+              {
+                "description": "e.g., Book, GraduationCap, Briefcase",
+                "name": "icon",
+                "type": "string",
+                "title": "Icon Name (lucide-react)"
+              },
+              {
+                "name": "target",
+                "type": "string",
+                "title": "Target/Goal"
+              },
+              {
+                "name": "stats",
+                "type": "string",
+                "title": "Statistics/Achievement"
+              },
+              {
+                "name": "priceRange",
+                "type": "string"
+              }
+            ],
+            "type": "object",
+            "title": "Course"
+          }
+        ],
+        "name": "courses",
+        "type": "array"
+      }
+    ],
+    "name": "programs",
+    "type": "document",
+    "title": "Programs Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Section Title"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "description": "e.g., Play, FileText, PenTool, TrendingUp",
+                "name": "icon",
+                "type": "string",
+                "title": "Icon Name (lucide-react)"
+              },
+              {
+                "name": "name",
+                "type": "string",
+                "title": "Resource Type Name"
+              },
+              {
+                "name": "description",
+                "type": "text"
+              },
+              {
+                "name": "count",
+                "type": "string",
+                "title": "Count (e.g., 50+ videos)"
+              }
+            ],
+            "type": "object",
+            "title": "Resource Type"
+          }
+        ],
+        "name": "types",
+        "type": "array",
+        "title": "Resource Types"
+      }
+    ],
+    "name": "resources",
+    "type": "document",
+    "title": "Resources Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string",
+        "title": "Main Title"
+      },
+      {
+        "description": "The emphasized part of the message",
+        "name": "highlight",
+        "type": "string",
+        "title": "Highlight Text"
+      }
+    ],
+    "name": "cta",
+    "type": "document",
+    "title": "Call To Action Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "name": "description",
+        "type": "text"
+      }
+    ],
+    "name": "subscribe",
+    "type": "document",
+    "title": "Subscribe Section"
+  },
+  {
+    "fields": [
+      {
+        "name": "tagline",
+        "type": "string"
+      },
+      {
+        "name": "motto",
+        "type": "string",
+        "title": "Motto (Lograremos Juntos)"
+      }
+    ],
+    "name": "footer",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "presence",
+                "constraint": "required"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "brandName",
+        "type": "string"
+      }
+    ],
+    "name": "navbar",
+    "type": "document",
+    "title": "Navigation Bar"
+  }
+]
