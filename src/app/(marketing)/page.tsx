@@ -12,20 +12,20 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-brand-white">
+    <div className="bg-brand-orange-dark">
       <AdminDashboard />
-      {/* Hero Section - ORANGE */}
-      <section className="bg-brand-orange text-brand-black py-24 px-4 relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-brand-black opacity-10 rounded-full -mr-48 -mt-48"></div>
+      {/* Hero Section - DARK ORANGE */}
+      <section className="bg-brand-orange-dark text-white py-24 px-4 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-black opacity-10 rounded-full -mr-48 -mt-48"></div>
         <div className="max-w-6xl mx-auto text-center relative z-10">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-brand-black leading-tight">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-white leading-tight">
             {siteContent.hero.mainTitle}
           </h1>
-          <div className="h-3 w-40 bg-brand-black mx-auto mb-8"></div>
-          <p className="text-2xl md:text-3xl mb-4 text-brand-black font-semibold max-w-4xl mx-auto">
+          <div className="h-3 w-40 bg-white mx-auto mb-8"></div>
+          <p className="text-2xl md:text-3xl mb-4 text-white font-semibold max-w-4xl mx-auto">
             {siteContent.hero.subtitle}
           </p>
-          <p className="text-lg text-brand-black font-bold mb-10 opacity-90">
+          <p className="text-lg text-white font-bold mb-10 opacity-90">
             {siteContent.hero.tagline}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -43,19 +43,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why El Aula Section - WHITE */}
-      <section className="py-16 px-4 bg-brand-white">
+      {/* Why El Aula Section - DARK ORANGE */}
+      <section className="py-16 px-4 bg-brand-orange-dark">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-2 text-brand-black">
+          <h2 className="text-5xl font-bold mb-2 text-white">
             {siteContent.whyChoose.title}
           </h2>
-          <div className="h-3 w-32 bg-brand-black mx-auto mb-6"></div>
-          <p className="text-lg text-brand-black max-w-3xl mx-auto mb-8 font-semibold">
+          <div className="h-3 w-32 bg-white mx-auto mb-6"></div>
+          <p className="text-lg text-white max-w-3xl mx-auto mb-8 font-semibold">
             {siteContent.whyChoose.description}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {siteContent.whyChoose.points.map((item) => (
-              <div key={item.title} className="bg-brand-black rounded-lg p-6 border-4 border-brand-black shadow-md hover:shadow-lg transition transform hover:scale-105">
+              <div key={item.title} className="bg-black rounded-lg p-6 border-4 border-white shadow-md hover:shadow-lg transition transform hover:scale-105">
                 <div className="text-5xl mb-3">{item.icon}</div>
                 <h3 className="font-bold text-brand-orange mb-2 text-lg">{item.title}</h3>
                 <p className="text-sm text-brand-orange font-semibold">{item.description}</p>
@@ -121,11 +121,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Video Resources & Learning Materials - WHITE */}
-      <section id="resources" className="py-16 px-4 bg-brand-white">
+      {/* Video Resources & Learning Materials - DARK ORANGE */}
+      <section id="resources" className="py-16 px-4 bg-brand-orange-dark">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold text-brand-black mb-2">
+            <h2 className="text-5xl font-bold text-white mb-2">
               {siteContent.resources.title}
             </h2>
             <p className="text-xl text-brand-black mb-6 max-w-3xl mx-auto font-semibold">
