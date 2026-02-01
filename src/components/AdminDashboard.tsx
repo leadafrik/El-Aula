@@ -33,7 +33,7 @@ export default function AdminDashboard() {
 
   if (!editMode) {
     return (
-      <div className="fixed bottom-4 right-4 z-50">
+      <div className="fixed bottom-4 right-4 z-50 hidden">
         <button
           onClick={() => setEditMode(true)}
           className="bg-brand-orange text-brand-black font-bold px-4 py-2 rounded-lg shadow-lg hover:opacity-90 transition"
